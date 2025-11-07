@@ -24,6 +24,6 @@ jobs:
 
       - name: Ejecutar pruebas
         run: |
-          pytest -v
+          PYTHONPATH=. pytest -v
 
           Agrego workflow de pruebas automáticas
