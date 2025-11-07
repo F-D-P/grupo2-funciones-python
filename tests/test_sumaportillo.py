@@ -1,6 +1,5 @@
-from funciones.sumaportillo import sumaportillo
+from funciones.sumaportillo import sumar
 
-def test_sumaportillo():
-    assert sumaportillo(3, 5) == 8
-    assert sumaportillo(-2, 2) == 0
-    assert sumaportillo(0, 0) == 0
+def test_sumar():
+    assert sumar(2, 3) == 5
+    assert sumar(-1, 1) == 0
