@@ -26,4 +26,10 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
+<<<<<< saavedra
           pytest -v
+
+          Agrego workflow de pruebas automáticas
+=======
+          pytest -v
+>>>>>> main
