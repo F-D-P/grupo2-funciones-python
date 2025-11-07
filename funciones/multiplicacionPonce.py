@@ -2,5 +2,3 @@
 def multiplicar(a, b):
  """Devuelve el producto de dos números."""
  return a * b
-#tests/test_multiplicar.py
-from funciones.multiplicar import multiplicar
