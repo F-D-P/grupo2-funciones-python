@@ -23,7 +23,9 @@ jobs:
           pip install pytest
 
       - name: Ejecutar pruebas
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
-          PYTHONPATH=. pytest -v
+          pytest -v
 
           Agrego workflow de pruebas automáticas
